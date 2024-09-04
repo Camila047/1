@@ -126,8 +126,8 @@ public class GenerateInfoFiles {
 			// Create sales from a salesperson
 			List<Sale> sales = Arrays.asList(new Sale(1, 10), new Sale(2, 5), new Sale(3, 7));
 			generateSalesFile(salesmen.get(0), sales, "1055075_sales.txt"); // Sales file for the first salesperson
-			generateSalesFile(salesmen.get(0), sales, "1122334_sales.txt"); // Sales file for the second salesperson
-			generateSalesFile(salesmen.get(0), sales, "2233445_sales.txt"); // Sales file for the third salesperson
+			generateSalesFile(salesmen.get(1), sales, "1122334_sales.txt"); // Sales file for the second salesperson
+			generateSalesFile(salesmen.get(2), sales, "2233445_sales.txt"); // Sales file for the third salesperson
 
 			// Create vendor information file
 			generateSalesmenInfoFile(salesmen, "salesmen_info.txt");
